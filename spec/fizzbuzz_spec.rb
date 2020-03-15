@@ -30,3 +30,9 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
 end
+
+describe 'fizzbuzz' do
+  it 'returns "buzz" when passed 100' do
+    expect(fizzbuzz(100)).to eq 'buzz'
+  end
+end
